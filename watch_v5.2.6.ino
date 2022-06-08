@@ -114,7 +114,7 @@ void dataFilter(std::string value) {                                // AB 00 xx 
         Serial.println("Sent Battery level");
         break;
 
-      case 0x72:                                                    // notifs, yy = 0x72                        YET TO BE TESTED and stored
+      case 0x72:                                                    // notifs, yy = 0x72
 
         if (notifPtr == 0) {                                        // overwrite notifs when maxed out
           notifPtr = notifCount;
