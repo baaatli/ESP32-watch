@@ -244,7 +244,7 @@ void mainTask(void * parameters) {
           notifSprite.fillSprite(bgColor);                                      // the sprite is created in the setup function, it has to be updated and pushed
           notifSprite.setCursor(0, 0);
 
-          if (notifPtr == notifCount) {                                         // inital condition
+          if (notifPtr == notifCount) {                                         // initial condition
             notifSprite.print("No notifications");
           }
 
